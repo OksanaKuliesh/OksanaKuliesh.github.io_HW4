@@ -18,7 +18,7 @@ h1 {
 }
 
 #trophy {
-padding-top: 50px;
+  padding-top: 50px;
   padding-left: 50px;
   width: 300px;
   height: 250px;
@@ -29,7 +29,7 @@ padding-top: 50px;
   display: flex;
   flex-direction: column;
   width: 800px;
-  padding-left: 350px; 
+  padding-left: 250px; 
   margin-bottom: 100px;
   margin-top: 20px; 
 }
