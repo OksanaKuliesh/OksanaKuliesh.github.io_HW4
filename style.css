@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400');
 
-.block-header {
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .block-header {
    display: flex;
    flex-flow: column wrap;
    justify-content: center;
@@ -22,16 +29,11 @@ h1 {
   padding-left: 50px;
   width: 300px;
   height: 250px;
-  
 }
 
 .leaders {
   display: flex;
   flex-direction: column;
-  width: 800px;
-  padding-left: 250px; 
-  margin-bottom: 100px;
-  margin-top: 20px; 
 }
 
 .places {
@@ -102,89 +104,90 @@ img {
 @media all and (max-width: 1000px){
 
 body {
-background-color: rgb(242, 206, 196) 
+  background-color: rgb(242, 206, 196) 
 }
 
 .block-header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Arimo', sans-serif;
-    background-color:rgb(242, 206, 196)
-    }
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arimo', sans-serif;
+  background-color:rgb(242, 206, 196)
+  }
+
+#trophy {
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 40vw;
+  height: 25vh;
+  }  
 
 .leaders {
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-    height: 800px;
-    padding-left: 70px; 
-    margin-bottom: 50px;
-    margin-top: 20px; 
-    } 
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin-top: 20px; 
+  } 
  
 h3 {
-    font-family: "Quicksand", sans-serif;
-    font-size: 32px;
-    font-weight: normal;
-    color: rgb(83, 98, 122);
-    }
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: rgb(83, 98, 122);
+  }
       
 p {
-    opacity: 0.83;
-    font-family: 'Arimo', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    text-align: left;
-    color: rgb(114, 120, 130, 1);
-    position: relative;
-    line-height: 100%;  
-    }
+  opacity: 0.83;
+  font-family: 'Arimo', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  color: rgb(114, 120, 130, 1);
+  position: relative;
+  line-height: 100%;  
+  }
 
 img {
-    position: relative;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    bottom: 20px;
-    left: -20px;
-    } 
+  position: relative;
+  border-radius: 50%;
+  } 
 
 .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 10px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  }
       
 .rating {
-    position: relative;
-    bottom: 0.1vh;
-    } 
+  position: relative;
+  bottom: 0.1vh;
+  } 
 
 .fa-star {
-    color: gold;
-    width: 16px;
-    height: 16px;
-    }
+  color: gold;
+  width: 16px;
+  height: 16px;
+  }
+
 .places {
-    display: flex;
-    flex-shrink: 2; 
-    border-radius: 40px;
-    box-shadow: 0px 6px 28.1px 0.9px rgb(0, 0, 0, 0.12);
-    border-radius: 45px;
-    height: 200px;
-    margin-top: 0.2vh;
-    justify-content: cenrter;
-    border: 0.1px solid white;
-    line-height: 10px;
-    padding: 2.5rem;
-    margin: 0.5em;
-    transition: 0.2s linear;
-    background-color: white;
-    }    
+  display: flex;
+  flex-shrink: 2; 
+  border-radius: 40px;
+  box-shadow: 0px 6px 28.1px 0.9px rgb(0, 0, 0, 0.12);
+  border-radius: 45px;
+  height: 200px;
+  margin-top: 0.2vh;
+  justify-content: cenrter;
+  border: 0.1px solid white;
+  line-height: 10px;
+  padding: 2.5rem;
+  margin: 0.5em;
+  transition: 0.2s linear;
+  background-color: white;
+  }    
 }
 
    
